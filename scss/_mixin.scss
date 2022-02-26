@@ -1,0 +1,5 @@
+@mixin font ($family, $size, $center) {
+    font-family: $family;
+    font-size: $size;
+    text-align: $center;
+}
