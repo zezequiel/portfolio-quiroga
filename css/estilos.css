@@ -113,10 +113,10 @@
         width: 450px; }
       @media (max-width: 992px) {
         .principal .contenedor .contenedor__imagen, .principal .contenedor .contenedor__imagenAbout .contenedor--imgSecundaria {
-          width: 350px;
+          width: 330px;
           transition: none; }
           .principal .contenedor .contenedor__imagen:hover, .principal .contenedor .contenedor__imagenAbout .contenedor--imgSecundaria:hover {
-            width: 350px; } }
+            width: 330px; } }
     .principal .contenedor .contenedor__textoInformativo, .principal .contenedor .container .profileCard .textoInformativo--portfolio, .principal .container .profileCard .contenedor .textoInformativo--portfolio, .principal .contenedor .container .profileCard .textoInformativo--dos, .principal .container .profileCard .contenedor .textoInformativo--dos, .principal .contenedor .container .profileCard .textoInformativo--tres, .principal .container .profileCard .contenedor .textoInformativo--tres {
       /*MIXIN*/
       font-family: "Red Hat Display", sans-serif;
@@ -133,11 +133,11 @@
           width: 258px; }
         @media (max-width: 992px) {
           .principal .contenedor .contenedor__imagenAbout .contenedor--imgSecundaria {
-            width: 258px;
+            width: 238px;
             transition: none;
             border-radius: 10px; }
             .principal .contenedor .contenedor__imagenAbout .contenedor--imgSecundaria:hover {
-              width: 258px; } }
+              width: 238px; } }
   .principal .titulo {
     padding-top: 5%;
     /*MAP*/
