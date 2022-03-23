@@ -239,7 +239,7 @@
         }
     }
 
-
+    /*PORTFOLIO*/
     .container{
         .subtitulo--portfolio{
             /*EXTEND*/
@@ -325,7 +325,7 @@
         }
     }
 
-
+    /*CONTACTO*/
     .formularioContacto{
         text-align: center;   
         padding-top: 3%;
@@ -356,6 +356,39 @@
             }
     }
 
+    /*PROYECTOS*/
+    .contenedorProyecto{
+        @extend .contenedor;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        .contenedorProyecto__imagen{
+            @extend .contenedor__imagen;
+            width: 500px;
+            transition: none;
+            &:hover{
+                width: 500px;
+                filter: grayscale(60%);
+            }
+            @media (max-width: 992px) {
+                width: 400px;
+                padding: 2%;
+                &:hover{
+                    width: 400px;
+                }
+            }  
+        }
+    }
+    .contenidoProyectos{
+        text-align: center;
+        .parrafoProyectos{
+            @include font ($letra-sans, 25px, center); 
+            padding-top: 10px;
+        }
+    }
+    .back{
+        width: 30px;
+    }
+    
 
     .footer{
         padding-top: 15%;

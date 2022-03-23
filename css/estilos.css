@@ -4,7 +4,10 @@
   padding: 0px;
   margin: 0px;
   background-image: linear-gradient(to right top, #ffffff, #f9f9f9, #f3f3f3, #ededed, #e7e7e7);
-  /* SKILLS*/ }
+  /* SKILLS*/
+  /*PORTFOLIO*/
+  /*CONTACTO*/
+  /*PROYECTOS*/ }
   .principal .navheader {
     background-color: rgba(253, 238, 228, 0.794); }
     .principal .navheader .texto-nav {
@@ -83,60 +86,60 @@
       outline: none !important;
       box-shadow: none !important;
       border: 0 !important; }
-  .principal .contenedor {
+  .principal .contenedor, .principal .contenedorProyecto {
     padding-top: 10%;
     padding-bottom: 10%; }
-    .principal .contenedor .contenedor__divIzquierdo {
+    .principal .contenedor .contenedor__divIzquierdo, .principal .contenedorProyecto .contenedor__divIzquierdo {
       text-align: center; }
-      .principal .contenedor .contenedor__divIzquierdo .titulo {
+      .principal .contenedor .contenedor__divIzquierdo .titulo, .principal .contenedorProyecto .contenedor__divIzquierdo .titulo {
         /*MIXIN*/
         font-family: "Red Hat Display", sans-serif;
         font-size: 70px;
         text-align: center; }
         @media (max-width: 992px) {
-          .principal .contenedor .contenedor__divIzquierdo .titulo {
+          .principal .contenedor .contenedor__divIzquierdo .titulo, .principal .contenedorProyecto .contenedor__divIzquierdo .titulo {
             font-size: 50px; } }
-      .principal .contenedor .contenedor__divIzquierdo .subtitulo, .principal .contenedor .contenedor__divIzquierdo .container .subtitulo--portfolio, .principal .container .contenedor .contenedor__divIzquierdo .subtitulo--portfolio {
+      .principal .contenedor .contenedor__divIzquierdo .subtitulo, .principal .contenedorProyecto .contenedor__divIzquierdo .subtitulo, .principal .contenedor .contenedor__divIzquierdo .container .subtitulo--portfolio, .principal .container .contenedor .contenedor__divIzquierdo .subtitulo--portfolio, .principal .contenedorProyecto .contenedor__divIzquierdo .container .subtitulo--portfolio, .principal .container .contenedorProyecto .contenedor__divIzquierdo .subtitulo--portfolio {
         /*MIXIN*/
         font-family: "Open Sans Condensed", sans-serif;
         font-size: 25px;
         text-align: center;
         padding-top: 20px; }
-      .principal .contenedor .contenedor__divIzquierdo .boton {
+      .principal .contenedor .contenedor__divIzquierdo .boton, .principal .contenedorProyecto .contenedor__divIzquierdo .boton {
         padding-top: 20px;
         padding-bottom: 20px; }
-    .principal .contenedor .contenedor__imagen, .principal .contenedor .contenedor__imagenAbout .contenedor--imgSecundaria {
+    .principal .contenedor .contenedor__imagen, .principal .contenedorProyecto .contenedor__imagen, .principal .contenedor .contenedor__imagenAbout .contenedor--imgSecundaria, .principal .contenedorProyecto .contenedor__imagenAbout .contenedor--imgSecundaria, .principal .contenedorProyecto .contenedorProyecto__imagen {
       width: 400px;
       border-radius: 10px;
       transition: width 1s; }
-      .principal .contenedor .contenedor__imagen:hover, .principal .contenedor .contenedor__imagenAbout .contenedor--imgSecundaria:hover {
+      .principal .contenedor .contenedor__imagen:hover, .principal .contenedorProyecto .contenedor__imagen:hover, .principal .contenedor .contenedor__imagenAbout .contenedor--imgSecundaria:hover, .principal .contenedorProyecto .contenedor__imagenAbout .contenedor--imgSecundaria:hover, .principal .contenedorProyecto .contenedorProyecto__imagen:hover {
         width: 450px; }
       @media (max-width: 992px) {
-        .principal .contenedor .contenedor__imagen, .principal .contenedor .contenedor__imagenAbout .contenedor--imgSecundaria {
+        .principal .contenedor .contenedor__imagen, .principal .contenedorProyecto .contenedor__imagen, .principal .contenedor .contenedor__imagenAbout .contenedor--imgSecundaria, .principal .contenedorProyecto .contenedor__imagenAbout .contenedor--imgSecundaria, .principal .contenedorProyecto .contenedorProyecto__imagen {
           width: 330px;
           transition: none; }
-          .principal .contenedor .contenedor__imagen:hover, .principal .contenedor .contenedor__imagenAbout .contenedor--imgSecundaria:hover {
+          .principal .contenedor .contenedor__imagen:hover, .principal .contenedorProyecto .contenedor__imagen:hover, .principal .contenedor .contenedor__imagenAbout .contenedor--imgSecundaria:hover, .principal .contenedorProyecto .contenedor__imagenAbout .contenedor--imgSecundaria:hover, .principal .contenedorProyecto .contenedorProyecto__imagen:hover {
             width: 330px; } }
-    .principal .contenedor .contenedor__textoInformativo, .principal .contenedor .container .profileCard .textoInformativo--portfolio, .principal .container .profileCard .contenedor .textoInformativo--portfolio, .principal .contenedor .container .profileCard .textoInformativo--dos, .principal .container .profileCard .contenedor .textoInformativo--dos, .principal .contenedor .container .profileCard .textoInformativo--tres, .principal .container .profileCard .contenedor .textoInformativo--tres {
+    .principal .contenedor .contenedor__textoInformativo, .principal .contenedorProyecto .contenedor__textoInformativo, .principal .contenedor .container .profileCard .textoInformativo--portfolio, .principal .container .profileCard .contenedor .textoInformativo--portfolio, .principal .contenedorProyecto .container .profileCard .textoInformativo--portfolio, .principal .container .profileCard .contenedorProyecto .textoInformativo--portfolio, .principal .contenedor .container .profileCard .textoInformativo--dos, .principal .container .profileCard .contenedor .textoInformativo--dos, .principal .contenedorProyecto .container .profileCard .textoInformativo--dos, .principal .container .profileCard .contenedorProyecto .textoInformativo--dos, .principal .contenedor .container .profileCard .textoInformativo--tres, .principal .container .profileCard .contenedor .textoInformativo--tres, .principal .contenedorProyecto .container .profileCard .textoInformativo--tres, .principal .container .profileCard .contenedorProyecto .textoInformativo--tres {
       /*MIXIN*/
       font-family: "Red Hat Display", sans-serif;
       font-size: 20px;
       text-align: center; }
-    .principal .contenedor .contenedor__imagenAbout {
+    .principal .contenedor .contenedor__imagenAbout, .principal .contenedorProyecto .contenedor__imagenAbout {
       display: flex;
       justify-content: center; }
-      .principal .contenedor .contenedor__imagenAbout .contenedor--imgSecundaria {
+      .principal .contenedor .contenedor__imagenAbout .contenedor--imgSecundaria, .principal .contenedorProyecto .contenedor__imagenAbout .contenedor--imgSecundaria {
         /*EXTEND*/
         width: 278px;
         border-radius: 20px; }
-        .principal .contenedor .contenedor__imagenAbout .contenedor--imgSecundaria:hover {
+        .principal .contenedor .contenedor__imagenAbout .contenedor--imgSecundaria:hover, .principal .contenedorProyecto .contenedor__imagenAbout .contenedor--imgSecundaria:hover {
           width: 258px; }
         @media (max-width: 992px) {
-          .principal .contenedor .contenedor__imagenAbout .contenedor--imgSecundaria {
+          .principal .contenedor .contenedor__imagenAbout .contenedor--imgSecundaria, .principal .contenedorProyecto .contenedor__imagenAbout .contenedor--imgSecundaria {
             width: 238px;
             transition: none;
             border-radius: 10px; }
-            .principal .contenedor .contenedor__imagenAbout .contenedor--imgSecundaria:hover {
+            .principal .contenedor .contenedor__imagenAbout .contenedor--imgSecundaria:hover, .principal .contenedorProyecto .contenedor__imagenAbout .contenedor--imgSecundaria:hover {
               width: 238px; } }
   .principal .titulo {
     padding-top: 5%;
@@ -294,6 +297,30 @@
     @media (max-width: 992px) {
       .principal .iframeContacto {
         display: none; } }
+  .principal .contenedorProyecto {
+    padding-top: 5%;
+    padding-bottom: 5%; }
+    .principal .contenedorProyecto .contenedorProyecto__imagen {
+      width: 500px;
+      transition: none; }
+      .principal .contenedorProyecto .contenedorProyecto__imagen:hover {
+        width: 500px;
+        filter: grayscale(60%); }
+      @media (max-width: 992px) {
+        .principal .contenedorProyecto .contenedorProyecto__imagen {
+          width: 400px;
+          padding: 2%; }
+          .principal .contenedorProyecto .contenedorProyecto__imagen:hover {
+            width: 400px; } }
+  .principal .contenidoProyectos {
+    text-align: center; }
+    .principal .contenidoProyectos .parrafoProyectos {
+      font-family: "Open Sans Condensed", sans-serif;
+      font-size: 25px;
+      text-align: center;
+      padding-top: 10px; }
+  .principal .back {
+    width: 30px; }
   .principal .footer {
     padding-top: 15%;
     padding-bottom: 0px;
