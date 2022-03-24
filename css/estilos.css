@@ -297,6 +297,9 @@
     @media (max-width: 992px) {
       .principal .iframeContacto {
         display: none; } }
+  .principal .enviar {
+    text-decoration: none;
+    color: white; }
   .principal .contenedorProyecto {
     padding-top: 5%;
     padding-bottom: 5%; }

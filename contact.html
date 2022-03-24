@@ -45,7 +45,7 @@
                     Estoy interesado en oportunidades independientes, especialmente en proyectos grandes o ambiciosos. No obstante, si tienes otra petición o pregunta, no dudes en utilizar el formulario.
                 </p>
                 <!-- FORMULARIO CONTACTO -->
-                <form class="formularioContacto__containerContacto">
+                <form class="formularioContacto__containerContacto" method="post" role="form">
                     <!-- Nombre y apellido input -->
                     <div class="row mb-4">
                         <div class="col">
@@ -62,21 +62,24 @@
                     
                     <!-- Email input -->
                     <div class="form-outline mb-4">
-                        <input type="email" id="form6Example5" class="form-control" placeholder="Email"/>
+                        <input type="email" id="email" class="form-control" placeholder="Email"/>
                     </div>
                     
                     <!-- Telefono input -->
                     <div class="form-outline mb-4">
-                        <input type="number" id="form6Example6" class="form-control" placeholder="Telefono"/>
+                        <input type="number" id="numero" class="form-control" placeholder="Telefono"/>
                     </div>
                     
                     <!-- Mensaje input -->
                     <div class="form-outline mb-4">
-                        <textarea class="form-control" id="form6Example7" rows="4" placeholder="Mensaje"></textarea>
+                        <textarea class="form-control" id="mensaje" rows="4" placeholder="Mensaje"></textarea>
                     </div>
                     
                     <!-- Submit button -->
-                    <button type="submit" class="btn btn-primary btn-block mb-4 ">Enviar datos</button>
+                    <button type="submit" class="btn btn-primary btn-block mb-4">
+                        <a id="WSP" href="" class="enviar">Enviar Whatsapp</a>
+                        
+                    </button>
                 </form>
             </div>
             <!-- IFRAME UBICACION -->
@@ -118,6 +121,7 @@
         </footer>
         <!-- CIERRE DE FOOTER -->
     </div>  
+    <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
